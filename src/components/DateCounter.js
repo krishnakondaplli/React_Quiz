@@ -1,5 +1,4 @@
 import { useReducer } from "react";
-import { act } from "react-dom/test-utils";
 
 const initialState = { count: 0, step: 1 };
 

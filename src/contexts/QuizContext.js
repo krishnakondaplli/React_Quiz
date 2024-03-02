@@ -1,10 +1,4 @@
-import {
-  children,
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-} from "react";
+import { createContext, useContext, useEffect, useReducer } from "react";
 
 const QuizContext = createContext();
 

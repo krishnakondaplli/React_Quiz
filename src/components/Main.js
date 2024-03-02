@@ -1,5 +1,3 @@
-// import { children } from "react";
-
 function Main({ children }) {
   return <main>{children}</main>;
 }
