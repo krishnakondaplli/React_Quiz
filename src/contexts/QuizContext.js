@@ -92,7 +92,7 @@ function QuizProvider({ children }) {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8000/questions")
+    fetch("https://react-quiz-questions.onrender.com/questions")
       .then((res) => res.json())
       .then((data) =>
         dispatch({
